@@ -1,0 +1,19 @@
+dataset_name: "yetsin_voice"
+language: "es"
+dataset_path: "data/xtts"
+metadata_file: "metadata.csv"
+output_path: "artifacts/xtts_finetune"
+run_name: "xtts_yetsin_ft"
+project_name: "TTS_XTTS_FT"
+batch_size: 2
+grad_accum_steps: 128
+num_loader_workers: 2
+eval_split_max_size: 64
+learning_rate: 0.000005
+max_audio_seconds: 11.6
+max_text_length: 200
+speaker_reference: "data/xtts/wavs/clip_0000.wav"
+test_sentences:
+  - "Hola, esta es una prueba de mi voz ajustada con XTTS."
+  - "Estoy usando un checkpoint fuerte y fine-tuning para mejorar la calidad."
+  - "Este proyecto busca una voz natural, clara y util para leer cualquier texto."

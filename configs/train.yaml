@@ -1,0 +1,15 @@
+sample_rate: 24000
+n_fft: 1024
+hop_length: 256
+win_length: 1024
+n_mels: 80
+min_silence_ms: 280
+silence_threshold: 0.012
+min_clip_ms: 700
+batch_size: 4
+epochs: 30
+learning_rate: 0.0003
+hidden_size: 192
+num_layers: 3
+train_split: 0.9
+seed: 42
