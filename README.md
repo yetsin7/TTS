@@ -4,7 +4,7 @@ Proyecto en Python para construir un sistema completo de sintesis de voz desde c
 
 ## Camino recomendado en 2026
 
-Para una voz realmente util, este repo ya incluye una ruta mas realista:
+Para una voz realmente útil, este repo ya incluye una ruta mas realista:
 
 - pipeline base local para preparar datos
 - exportacion a dataset para `XTTS-v2`
@@ -73,11 +73,11 @@ pip install -e .
 - `scripts/inspect_dataset.py`: valida que el corpus sea consistente.
 - `scripts/train.py`: entrena el modelo principal.
 - `scripts/export_xtts_dataset.py`: convierte el dataset actual al formato de XTTS.
-- `scripts/validate_xtts_dataset.py`: valida el dataset exportado contra limites utiles para XTTS.
+- `scripts/validate_xtts_dataset.py`: valida el dataset exportado contra límites útiles para XTTS.
 - `scripts/train_xtts.py`: lanza fine-tuning de XTTS-v2 en un entorno con GPU y Coqui TTS.
 - `scripts/infer_xtts.py`: prueba inferencia con XTTS.
 - `scripts/synthesize_best.py`: usa XTTS fine-tuned si existe; si no, cae al modelo experimental.
-- `scripts/package_xtts_bundle.py`: crea un zip minimo para llevar el flujo a Colab.
+- `scripts/package_xtts_bundle.py`: crea un zip mínimo para llevar el flujo a Colab.
 - `scripts/synthesize.py`: sintetiza audio desde consola.
 - `scripts/serve_api.py`: levanta una API local con FastAPI.
 - `app.py`: interfaz local de escritorio para Windows.
@@ -89,7 +89,7 @@ pip install -e .
 - Se usa un pipeline moderno sobre `PyTorch` y `torchaudio`.
 - El modelo inicial es deliberadamente compacto para poder iterar rápido.
 - La reconstrucción de audio usa Griffin-Lim como base inicial.
-- Despues podremos sustituir el vocoder por uno neuronal mas avanzado.
+- Después podremos sustituir el vocoder por uno neuronal mas avanzado.
 - La arquitectura actual esta pensada para que luego podamos migrar a un stack mas potente sin rehacer el proyecto.
 - Si el segmentado por silencios no coincide con el texto, el sistema usa un respaldo por particion uniforme para no bloquear el pipeline.
 - El ruido actual proviene del modelo experimental base. La ruta recomendada para mejor calidad es XTTS fine-tuned.

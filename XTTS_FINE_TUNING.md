@@ -3,7 +3,7 @@
 Este proyecto ya no debe apoyarse en el modelo experimental inicial para calidad real.  
 La ruta recomendada es **fine-tuning de XTTS-v2** sobre tu propia voz.
 
-## Decision tecnica
+## Decision técnica
 
 - Recomendado para tu caso: **Google Colab con GPU**
 - No recomendado para este fine-tuning: tu laptop actual en CPU
@@ -11,7 +11,7 @@ La ruta recomendada es **fine-tuning de XTTS-v2** sobre tu propia voz.
 
 ## Fuentes oficiales
 
-- Documentacion oficial de XTTS: [Coqui XTTS docs](https://tts.readthedocs.io/en/dev/models/xtts.html)
+- Documentación oficial de XTTS: [Coqui XTTS docs](https://tts.readthedocs.io/en/dev/models/xtts.html)
 - Repositorio oficial: [coqui-ai/TTS](https://github.com/coqui-ai/TTS)
 - Receta oficial usada como base: `recipes/ljspeech/xtts_v2/train_gpt_xtts.py`
 - Modelo oficial: [coqui/XTTS-v2](https://huggingface.co/coqui/XTTS-v2)

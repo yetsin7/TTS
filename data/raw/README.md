@@ -14,9 +14,9 @@ Guarda aqui tus archivos crudos antes de ejecutar el entrenamiento.
 - Recomendado: `audio_entrenamiento.wav`
 - Voz de una sola persona
 - Grabacion limpia, sin musica ni ruido
-- Una sola sesion o varias sesiones con el mismo microfono
+- Una sola sesión o varias sesiones con el mismo microfono
 - Pausa breve entre frases
-- Minimo util: 30 a 60 minutos
+- Mínimo útil: 30 a 60 minutos
 - Mejor resultado: 2 a 10 horas
 
 ## Formato del texto
